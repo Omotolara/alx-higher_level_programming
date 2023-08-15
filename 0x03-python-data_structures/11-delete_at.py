@@ -4,9 +4,8 @@ def delete_at(my_list=[], idx=0):
     if idx < 0 or idx >= (len(my_list)):
         return my_list
 
-    new_list = []
     for index, element in enumerate(my_list):
-        if index != idx:
-            new_list.append(element)
+        if index = idx:
+            del my_list[idx]
 
-    return new_list
+    return my_list
