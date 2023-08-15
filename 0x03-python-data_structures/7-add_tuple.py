@@ -2,4 +2,4 @@
 def add_tuple(tuple_a=(), tuple_b=()):
     first  = tuple_a[:2] + (0, 0)
     second = tuple_b[:2] + (0, 0)
-    return (a[0] + b[0], a[1] + b[1])
+    return (first[0] + second[0], first[1] + second[1])
