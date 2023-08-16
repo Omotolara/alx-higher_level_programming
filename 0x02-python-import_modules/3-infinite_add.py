@@ -6,4 +6,4 @@ if __name__ == "__main__":
     cargv = len(sys.argv) - 1
     for ind in range(cargv):
         result = result + int(sys.argv[ind + 1])
-        print("{}".format(result))
+    print("{}".format(result))
