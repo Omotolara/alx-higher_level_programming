@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Printing a Square"""
+"""Coordinates of a Square"""
 
 
 class Square:
@@ -12,6 +12,7 @@ class Square:
         size: the size of the square.
         """
         self.__size = size
+        self.__position = position
 
     @property
     def size(self):
