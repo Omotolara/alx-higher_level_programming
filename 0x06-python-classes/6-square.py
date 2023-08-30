@@ -56,3 +56,4 @@ class Square:
             print(" " * self.__position[0] + "#" * self.__size)
         if self.__size == 0:
             print()
+            return
