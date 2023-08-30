@@ -24,8 +24,6 @@ class Square:
         """Validates size and sets the value"""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
-        elif value < 0:
-            raise ValueError("size must be >= 0")
         self.__size = value
 
     @property
@@ -50,10 +48,10 @@ class Square:
 
     def my_print(self):
         """Prints in stdout the square with the character #"""
-        if self.__size == 0:
-            print()
-            return
         for num in range(self.__position[1]):
             print()
         for num in range(self.__size):
             print(" " * self.__position[0] + "#" * self.__size)
+        if self.__size == 0:
+            print()
+            return
