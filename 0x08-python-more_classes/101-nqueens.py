@@ -5,6 +5,7 @@ placing N non-attacking queens on an N×N chessboard
 
 import sys
 
+
 def is_safe(board, row, col, n):
     """Checks for correct parameters"""
     for i in range(col):
