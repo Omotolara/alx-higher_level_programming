@@ -5,7 +5,7 @@
 class Rectangle:
     """Defines a rectangle"""
     number_of_instances = 0
-    print_symol = "#"
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Instantiation with optional width and height.
