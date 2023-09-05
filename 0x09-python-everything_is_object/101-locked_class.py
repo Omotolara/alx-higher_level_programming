@@ -9,5 +9,5 @@ class LockedClass:
     def __fixattr__(self, name, value):
         """Fixes the new instance attribute to only be first_name"""
         if name == 'first_name':
-            super().__setattr__(name, value)
+            super().__fixattr__(name, value)
         raise AttributeError
